@@ -1,0 +1,14 @@
+12. Now you can start a session with you Windows IoT Core device. From you administrator PS console, type:
+
+	`Enter-PSSession -ComputerName <IP Address> -Credential localhost\Administrator`
+
+13. In the credential dialog enter the following default password: `p@ssw0rd`.
+
+	> **Note:** The connection process is not immediate and can take up to 30 seconds.
+
+	If you successfully connected to the device, you should see the IP address of your device before the prompt.
+
+	![Connected to the Raspberry using PS](Images/connected-to-the-raspberry-using-ps.png?raw=true)
+
+14. Disconnect from the Powershell Session
+	`Exit-PSSession`

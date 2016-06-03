@@ -124,20 +124,22 @@ To setup your devices perform the following steps:
 
 11.  Type **Y** and press **Enter** to confirm the change.
 
-12. Now you can start a session with you Windows IoT Core device. From you administrator PS console, type:
+#### Creating an IoT Hub
 
-	`Enter-PSSession -ComputerName <IP Address> -Credential localhost\Administrator`
+12. Check your RPI is connected to the internet, find IP address from the Windows IoT Core dashboard or via the 'GetIPAddressFromHostName.docx'
 
-13. In the credential dialog enter the following default password: `p@ssw0rd`.
+	![open-web-portal](Images/openwebportal.png)
 
-	> **Note:** The connection process is not immediate and can take up to 30 seconds.
+13. Use login name: Administrator and password: p@ssw0rd
+	
+	![login-details](Images/login.png)
 
-	If you successfully connected to the device, you should see the IP address of your device before the prompt.
+14. This will open an IoT Core dashboard
 
-	![Connected to the Raspberry using PS](Images/connected-to-the-raspberry-using-ps.png?raw=true)
+	![IoT-core-dashboard](Images/iotcorewebportal.png)
 
-14. Disconnect from the Powershell Session
-	`Exit-PSSession`
+
+
 
 <a name="Task13" />
 ### Setting up your Azure Account
