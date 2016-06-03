@@ -124,21 +124,19 @@ To setup your devices perform the following steps:
 
 11.  Type **Y** and press **Enter** to confirm the change.
 
-#### Creating an IoT Hub
+#### OPTIONAL: Web Portal
 
 12. Check your RPI is connected to the internet, find IP address from the Windows IoT Core dashboard or via the 'GetIPAddressFromHostName.docx'
 
-	![open-web-portal](Images/openwebportal.png)
+	![open-web-portal](Images/openwebportal.PNG)
 
 13. Use login name: Administrator and password: p@ssw0rd
 	
-	![login-details](Images/login.png)
+	![login-details](Images/login.PNG)
 
 14. This will open an IoT Core dashboard
 
-	![IoT-core-dashboard](Images/iotcorewebportal.png)
-
-
+	![IoT-core-dashboard](Images/iotcorewebportal.PNG)
 
 
 <a name="Task13" />
