@@ -1,6 +1,6 @@
-Windows 10 IoT Core Hands-on Lab
+Build an IoT Service in 1 Hour - Windows 10 IoT Core Hands-on Lab
 ========================================
-ConnectTheDots will help you get tiny devices connected to Microsoft Azure, and to implement great IoT solutions taking advantage of Microsoft Azure IoT Hubs and the Universal Windows Platform.
+This lab will help you get tiny devices connected to Microsoft Azure, and to implement great IoT solutions taking advantage of Microsoft Azure IoT Hubs and the Universal Windows Platform.
 
 > This lab is stand-alone, but is used at Microsoft to accompany a presentation about Azure, Windows 10 IoT Core, and our IoT services. If you wish to follow this on your own, you are encouraged to do so. If not, consider attending a Microsoft-led IoT lab in your area.
 
@@ -10,9 +10,10 @@ In this lab you will use a [Raspberry Pi 2](https://www.raspberrypi.org/products
 
 > **Note:** Although AMQP is the recommended approach, at the time this lab was written that protocol was not supported by the [Azure IoT Core SDK](https://github.com/Azure/azure-iot-sdks) for UWP (Universal Windows Platform) applications. However, it is expected to be implemented in a short time, since it's currently under development.  
 
+IoT Workshop Architecture
+
 ![iot-workshop](Images/iotworkshop.PNG?raw=true)
 
-	_IoT Workshop Architecture Diagram_
 
 This lab includes the following tasks:
 
@@ -39,7 +40,7 @@ Your machine setup includes the following items already downloaded:
 
 - Windows 10 (build 10240) or better
 
-- Visual Studio 2015 with Update 1 – [Community Edition](http://www.visualstudio.com/downloads/download-visual-studio-vs) is sufficient. Make sure to install Visual Studio Update 1 for the latest 10586 build of Windows IoT Core: https://www.visualstudio.com/en-us/news/vs2015-update1-vs.aspx
+- Visual Studio 2015 with Update 1 [Community Edition](http://www.visualstudio.com/downloads/download-visual-studio-vs) is sufficient. Make sure to install Visual Studio Update 1 for the latest 10586 build of Windows IoT Core: https://www.visualstudio.com/en-us/news/vs2015-update1-vs.aspx
 
 	> **NOTE:** If you choose to install a different edition of VS 2015, make sure to do a **Custom** install and select the checkbox **Universal Windows App Development Tools** -> **Tools and Windows SDK**.
 
@@ -81,7 +82,7 @@ To setup your devices perform the following steps:
 
 2. Get your Windows 10 IoT Core SD Card and insert into the micro SD card on the Raspberry Pi device.  
 
-3. Download the **Windows 10 IoT Core** image as per the instructions on <http://ms-iot.github.io/content/en-US/win10/RPI.htm> and run the installer on your development PC. You already have Windows IoT core image on the SD card, you still need to follow this step to get the IoT Core Watcher on to your PC.
+3. You already have Windows IoT core image on the SD card for this lab
 
 4. Connect the Raspberry Pi to a power supply and use the Ethernet cable to connect your device and your development PC. You can do it by plugging in one end of the spare Ethernet cable to the extra Ethernet port on your PC, and the other end of the cable to the Ethernet port on your IoT Core device. (Do this using an on-board port or an auto-crossover USB->Ethernet interface.)
 
@@ -89,9 +90,7 @@ To setup your devices perform the following steps:
 
 5. Wait for the OS to boot.
 
-<Go to "blog url" and download the Windows 10 IoT Core Watcher>
-
-6. Enable your device to internet share with the Raspberry Pi by following the instructions in the file 'Setup your device to Internet Share.pdf'
+6. Enable your device to internet share with the Raspberry Pi by following the instructions in the file **'Setup your device to Internet Share.pdf'**
 
 7. Run the **Windows 10 IoT Core Dashboard** on your development PC and note your Raspberry Pi IP address on the detected device [each device in this lab has a unqiue name, situated on the blue box].
 
