@@ -92,6 +92,8 @@ To setup your devices perform the following steps:
 
 6. Enable your device to internet share with the Raspberry Pi by following the instructions in the file **'Setup your device to Internet Share.pdf'**
 
+### Find your Device
+
 7. Run the **Windows 10 IoT Core Dashboard** on your development PC and note your Raspberry Pi IP address on the detected device [each device in this lab has a unqiue name, situated on the blue box].
 
 	- Click the windows "**Start**" button
@@ -105,6 +107,8 @@ To setup your devices perform the following steps:
 	> Go to Settings -> check 'Listen to eBootPinger boardcasts'
 	> OR
 	> Follow the "GetIPAddressFromHostName.docx" document for instructions on gaining your IP from your unique device name on the bright label>
+
+### Trust Your Device
 
 8. Launch an administrator PowerShell console on your local PC. The easiest way to do this is to type _powershell_ in the **Search the web and Windows** textbox near the Windows Start Menu. Windows will find **PowerShell** on your machine. Right-click the **Windows PowerShell** entry and select **Run as administrator**. The PS console will show.
 
