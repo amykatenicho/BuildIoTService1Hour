@@ -1,4 +1,5 @@
-Build an IoT Service in 1 Hour - Windows 10 IoT Core Hands-on Lab
+Build an IoT Service in 1 Hour
+Windows 10 IoT Core Hands-on Lab
 ========================================
 This lab will help you get tiny devices connected to Microsoft Azure, and to implement great IoT solutions taking advantage of Microsoft Azure IoT Hubs and the Universal Windows Platform.
 
